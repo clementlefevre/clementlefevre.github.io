@@ -50,7 +50,7 @@ DEPENDENCIES
   coderay
   jekyll
   jekyll-minibundle
-  pygments.rb
+  
   rake
 
 BUNDLED WITH
