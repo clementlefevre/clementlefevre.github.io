@@ -34,11 +34,11 @@ This is a post that uses a `figure`. It stacks these images and places a nice li
 </figure>
 {% endhighlight %}
 
-{% highlight python %}
+{% highlight python linenos %}
 for i range(10):
 	print 'coucou'
 {% endhighlight %}
 
-{% highlight R %}
+{% highlight R linenos %}
 library(dplyr)
 {% endhighlight %}
