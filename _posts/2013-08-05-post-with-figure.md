@@ -33,3 +33,8 @@ This is a post that uses a `figure`. It stacks these images and places a nice li
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 {% endhighlight %}
+
+{% highlight python %}
+for i range(10):
+	print 'coucou'
+{% endhighlight %}
