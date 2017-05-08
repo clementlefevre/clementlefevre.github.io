@@ -38,3 +38,7 @@ This is a post that uses a `figure`. It stacks these images and places a nice li
 for i range(10):
 	print 'coucou'
 {% endhighlight %}
+
+{% highlight R %}
+library(dplyr)
+{% endhighlight %}
