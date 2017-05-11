@@ -1,11 +1,9 @@
 ---
-layout: post-light-feature
-title: Two countries for one tree.
-description: Predicting the vote outcome using demographic data.
-categories: articles
-date: 2917-05-07T00:00:00.000Z
-image:
-  feature: soft-trees.jpg
+layout: post-no-feature
+title: French elections
+description: One tree, one country.
+comments: true
+category: articles
 published: true
 ---
 
@@ -16,11 +14,27 @@ published: true
 	<figcaption>2017 presidential - 1st round</figcaption>
 </figure>
 
-### 
+### Herve le Bras
+
+
 
 According to the french demograph Hervé Le Bras, the spread of Front National is related to the following factors :
 - exclusion from economical dynamism,
 - proximity to the communication nodes.
+- regional specificity
+- the poor do not votes, but the vote is strongly influenced by direct environment
+
+# TO DO :
+
+- Cartogram population - le pen/macron vote
+- Map absenteism
+- detailed map for the three regions
+- for rhone alpes : map le pen vs map altitude
+- bar chart for each region with top 10 correlated.
+
+
+
+
 
 Using data retrieved from the french national statistics office (INSEE) and the 
 
