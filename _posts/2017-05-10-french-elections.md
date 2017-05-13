@@ -24,7 +24,7 @@ Using some socio-economical features, we too can build a predictive model for th
 A look at the original artwork French voters produced during the first round of the Presidential election : 
 
 <figure>
-	<img src="/images/french_elections/maps/unnamed-chunk-9-1.png">
+	<img src="/images/french_elections/maps/pollock.png">
 	<figcaption>Hommage à Jackson Pollock : 1st round best candidate per town</figcaption>
 </figure>
 
@@ -77,10 +77,11 @@ In Bretagne, Le Pen scores high where :
 - the median income are low,
 - service sector is sparse.
 
+<p style="text-align: center;">***</p>
 
 Out of sheer curiosity, how about the relationship between Front National and the **percentage of immigrants** ?
 <figure>
-<img src="/images/french_elections/scatters/immigrants_LePen.png" style="width: 100%;">
+<img src="/images/french_elections/scatters/immigrants.png" style="width: 100%;">
 </figure>
 The more foreigners, the less prone are voters to choose the Front National.
 
@@ -88,7 +89,7 @@ The more foreigners, the less prone are voters to choose the Front National.
 
 And how about **population density** ?
 <figure>
-<img src="/images/french_elections/scatters/density_LePen.png" style="width: 100%;">
+<img src="/images/french_elections/scatters/density.png" style="width: 100%;">
 </figure>
 As pointed out by Le Bras, big cities offer more opportunities, thus lowering the Front National score.
 But interestingly enough, this does not occurs in Provence.
@@ -103,6 +104,7 @@ Education seems to be the most proeminent factor for Le Pen, how does it compare
 <img src="/images/french_elections/scatters/nodegrees_Macron.png" style="width: 100%;">
 </figure>
 
+
 <p style="text-align: center;">***</p>
 
 And incomes ?
@@ -113,12 +115,13 @@ And incomes ?
 <img src="/images/french_elections/scatters/median_income_Macron.png" style="width: 100%;">
 </figure>
 
-<figure>
-<img src="/images/french_elections/maps/North_LePen.png" style="width: 100%;">
-</figure>
+
 
 <figure>
 <img src="/images/french_elections/maps/unemployment_North.png" style="width: 100%;">
+</figure>
+<figure>
+<img src="/images/french_elections/maps/north_LePen.png" style="width: 100%;">
 </figure>
 
 <figure>
@@ -126,9 +129,12 @@ And incomes ?
 </figure>
 
 
+People with no job do are more likely to abstain from voting. In the north, Le Pen scores well where unemployment is high.
+
+
 <p style="text-align: center;">***</p>
 
-Finally, how about elevation ?
+Finally, how about **elevation** ?
 <figure>
 <img src="/images/french_elections/scatters/elevation_LePen.png" style="width: 100%;">
 </figure>
@@ -136,9 +142,13 @@ Finally, how about elevation ?
 <img src="/images/french_elections/maps/elevation_PACA.png" style="width: 100%;">
 </figure>
 <figure>
-<img src="/images/french_elections/maps/PACA_LePen.png" style="width: 100%;">
+<img src="/images/french_elections/maps/LePen_PACA.png" style="width: 100%;">
 </figure>
-Indeed, comparing with the region with the highest elevation gradient (Rhone Alpes), Le Pen does not score well in high altitude.
+<figure>
+<img src="/images/french_elections/maps/unemployment_PACA.png" style="width: 100%;">
+</figure>
+
+Indeed, comparing with the region with the highest elevation gradient (Rhone Alpes), Le Pen does not score well in high altitude. An other fact is for the region of Nice, where unemployment is low and Le Pen high. This confirm the thesis of a two-headed Front National, one of the North, more social, and an other of the South, closer to Poujade.
 
 
 
