@@ -36,9 +36,9 @@ The french demograph and historian Herve Le Bras points the following factors to
 - exclusion from economical dynamism,
 - regional specificity,
 - geology ([Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique)),
-- the poor do not votes, but the vote is strongly influenced by their direct environment.
+- the poor do not vote, and direct environment does strongly influence vote.
 
-### "Elementary, my dear Pearson !"
+### Elementary, my dear Pearson.
 
 Using data retrieved from the french national statistics office (INSEE), we focus on three regions :
 - The north (Hauts de France)
@@ -53,7 +53,7 @@ We can draw the highest correlated factors for each regions :
 <img src="/images/french_elections/correlograms/unnamed-chunk-7-1.png" style="width: 100%;">
 </figure>
 
-In Provence, Le Pen scores high where : 
+In **Provence**, Le Pen scores high where : 
 - average education level is low,
 - the number of freelance nurses is low,
 - service sector is sparse,
@@ -64,7 +64,7 @@ In Provence, Le Pen scores high where :
 <figure>
 <img src="/images/french_elections/correlograms/unnamed-chunk-7-2.png" style="width: 100%;">
 </figure>
-In North, Le Pen scores high where : 
+In the **North**, Le Pen scores high where : 
 - average education level is low,
 - the median income are low,
 - unemployment is high.
@@ -72,7 +72,7 @@ In North, Le Pen scores high where :
 <figure>
 <img src="/images/french_elections/correlograms/unnamed-chunk-7-3.png" style="width: 100%;">
 </figure>
-In Bretagne, Le Pen scores high where : 
+In **Bretagne**, Le Pen scores high where : 
 - average education level is low,
 - the median income are low,
 - service sector is sparse.
