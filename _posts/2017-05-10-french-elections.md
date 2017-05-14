@@ -59,7 +59,7 @@ In **Provence**, Le Pen scores high where :
 - service sector is sparse,
 - and, weirdly, altitude is low.
 
-This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), a french sociologist and geograph, son of a Minister, after having lost a campaign, decided to investigate the possible relationship between geology and political orientation. He came to the following conclusion :  "granite votes right, limestone votes left".
+This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), a french sociologist and geograph, son of a Minister, after having lost a campaign, decided to investigate the possible relationship between geology and political orientation. He came to the following conclusion :  *"granite votes right, limestone votes left"*.
 
 
 <p style="text-align: center;">*</p>
@@ -218,6 +218,6 @@ For the detailed implementation of the algorithm, see <a href="https://github.co
 ### References :
 
 - [Nantes, un bastion socialiste partagé entre les votes Macron et Mélenchon - FR](http://www.metropolitiques.eu/Nantes-un-bastion-socialiste.html)
-- https://www.franceculture.fr/politique/exode-urbain-et-inegalites-les-cartes-du-vote-fn
-- https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/
-- https://www.data.gouv.fr/fr/datasets/election-presidentielle-des-23-avril-et-7-mai-2017-resultats-du-1er-tour-1/
+- [Exode urbain et inégalités : les cartes du vote FN](https://www.franceculture.fr/politique/exode-urbain-et-inegalites-les-cartes-du-vote-fn)
+- [Statistics per town - french institute for statistics and economics studies- INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/)
+- [Presidential elections results - first round](https://www.data.gouv.fr/fr/datasets/election-presidentielle-des-23-avril-et-7-mai-2017-resultats-du-1er-tour-1/)
