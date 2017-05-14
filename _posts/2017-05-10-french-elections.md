@@ -16,7 +16,7 @@ Then afterward, charts or dataviz' flood the internet to provide the best analys
 
 <figure>
 	<img src="/images/french_elections/maps/renaud_epstein/fn_vs_tchernobyl.jpg">
-	<figcaption>Source : Renaud Epstein</figcaption>
+	<a href="https://twitter.com/renaud_epstein/status/862913534778277889" target="_blank" ><figcaption>Source : Renaud Epstein</figcaption></a>
 </figure>
 
 Using some socio-economical features, we too can build a predictive model for the elections outcomes.
@@ -29,14 +29,6 @@ A look at the original artwork French voters produced during the first round of 
 </figure>
 
 
-
-### The Voice (of the expert)
-
-The french demograph and historian Herve Le Bras points the following factors to explain the Front National votes:
-- exclusion from economical dynamism,
-- regional specificity,
-- geology ([Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique)),
-- the poor do not vote, and direct environment does strongly influence vote.
 
 ### Elementary, my dear Pearson.
 
@@ -55,11 +47,14 @@ We can draw the highest correlated factors for each regions :
 
 In **Provence**, Le Pen scores high where : 
 - average education level is low,
-- the number of freelance nurses is low,
+- the number of private nurses is low,
 - service sector is sparse,
-- altitude is low.
+- and, weirdly, altitude is low.
+
+This last element deserve a digression : [Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), a french sociologist, son of a Minister, after having lost a campaign, decided to investigate the possible relationship between geology and political color.
 
 
+<p style="text-align: center;">*</p>
 
 <figure>
 <img src="/images/french_elections/correlograms/unnamed-chunk-7-2.png" style="width: 100%;">
@@ -68,6 +63,8 @@ In the **North**, Le Pen scores high where :
 - average education level is low,
 - the median income are low,
 - unemployment is high.
+
+<p style="text-align: center;">*</p>
 
 <figure>
 <img src="/images/french_elections/correlograms/unnamed-chunk-7-3.png" style="width: 100%;">
@@ -129,7 +126,8 @@ And incomes ?
 </figure>
 
 
-People with no job do are more likely to abstain from voting. In the north, Le Pen scores well where unemployment is high.
+As Herve Le Bras already mentioned, poors have a low turnout. 
+In the north, Le Pen scores well where unemployment is high.
 
 
 <p style="text-align: center;">***</p>
@@ -148,14 +146,68 @@ Finally, how about **elevation** ?
 <img src="/images/french_elections/maps/unemployment_PACA.png" style="width: 100%;">
 </figure>
 
-Indeed, comparing with the region with the highest elevation gradient (Rhone Alpes), Le Pen does not score well in high altitude. An other fact is for the region of Nice, where unemployment is low and Le Pen high. This confirm the thesis of a two-headed Front National, one of the North, more social, and an other of the South, closer to Poujade.
+Indeed, comparing with the region with the highest elevation gradient (Rhone Alpes), Le Pen does score poorly at high altitude.
+
+An other interesting observation is for the area of Nice, where unemployment is low and Le Pen high. This confirm the thesis of a two-headed Front National, one of the North, more social, and an other of the South, closer to Poujade.
+
+<p style="text-align: center;">***</p>
+
+# Creating a model
+
+Well, now we have a dataset with 35000 cities and for each 170 predictors (such as the ratio of camping place per habitant, the proportion of student or the local GDP).
+
+Instead of going through the painful process of features selection (as seen before, lots of multicollinearity here) and regularization, we prefer to hop in the Land Cruiser of Machine Learning :  **XGB Tree**.
+
+<figure>
+<img src="/images/french_elections/landcruiser.jpg" style="width: 75%;">
+<figcaption>Load the dataset, tune hyperparameters and off we go !</figcaption>
+</figure>
+
+For the detailed implementation of the algorithm, see here
+
+<p style="text-align: center;">***</p>
+
+### Confusion Matrix and Statistics
+
+
+|prediction/real | FILLON| LE.PEN| MACRON| MÉLENCHON|
+|:---------------|------:|------:|------:|---------:|
+|FILLON          |    995|    358|    205|        48|
+|LE.PEN          |    454|   4854|    429|       204|
+|MACRON          |    229|    278|   1319|       286|
+|MÉLENCHON       |     46|    111|    197|       529|
 
 
 
 
 
 
+	Overall Statistics
+	                                          
+	               Accuracy : 0.7401          
+	                 95% CI : (0.7316, 0.7484)
+	    No Information Rate : 0.5313          
+	    P-Value [Acc > NIR] : < 2.2e-16       
+	                                          
+	                  Kappa : 0.5864          
+	 Mcnemar's Test P-Value : 6.207e-11       
 
+	Statistics by Class:
+
+	                     Class: FILLON Class: LE.PEN Class: MACRON Class: MÉLENCHON
+	Sensitivity                0.59605        0.8698        0.6212          0.53140
+	Specificity                0.93704        0.7925        0.9104          0.95703
+	Pos Pred Value             0.64918        0.8261        0.6397          0.58214
+	Neg Pred Value             0.92229        0.8430        0.9037          0.94772
+	Prevalence                 0.16350        0.5313        0.2039          0.10125
+	Detection Rate             0.09746        0.4621        0.1267          0.05381
+	Detection Prevalence       0.15012        0.5594        0.1980          0.09243
+	Balanced Accuracy          0.76655        0.8311        0.7658          0.74421
+
+
+<figure>
+<img src="/images/french_elections/xgb/features_importance_XGB.png" style="width: 100%;">
+</figure>
 
 ### References :
 
