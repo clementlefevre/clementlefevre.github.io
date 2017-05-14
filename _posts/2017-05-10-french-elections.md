@@ -12,7 +12,7 @@ image:
 
 
 It's now a well anchored habit in France : before each election, media (re)discover the rise of extrem right.
-Then afterward, charts or dataviz' flood the internet to provide the best analysis : 
+Afterward, charts or dataviz' flood the internet to provide the best analysis : 
 
 <figure>
 	<img src="/images/french_elections/maps/renaud_epstein/fn_vs_tchernobyl.jpg">
@@ -32,10 +32,10 @@ A look at the original artwork French voters produced during the first round of 
 
 ### Elementary, my dear Pearson.
 
-Using data retrieved from the french national statistics office (INSEE), we focus on three regions :
+Using data retrieved from the french national statistics office (INSEE), we focus on the two regions where the Front Nationql got the best results :
 - The north (Hauts de France)
-- The south (Provence Alpes Cotes d'Azur)
-- The west (Bretagne)
+- The south (Provence-Alpes-Côte d'Azur)
+
 
 We can draw the highest correlated factors for each regions :
 
@@ -56,9 +56,7 @@ This last element deserve a digression : [Siegfried](https://fr.wikipedia.org/wi
 
 <p style="text-align: center;">*</p>
 
-<figure>
-<img src="/images/french_elections/correlograms/unnamed-chunk-7-2.png" style="width: 100%;">
-</figure>
+
 In the **North**, Le Pen scores high where : 
 - average education level is low,
 - the median income are low,
@@ -66,9 +64,7 @@ In the **North**, Le Pen scores high where :
 
 <p style="text-align: center;">*</p>
 
-<figure>
-<img src="/images/french_elections/correlograms/unnamed-chunk-7-3.png" style="width: 100%;">
-</figure>
+
 In **Bretagne**, Le Pen scores high where : 
 - average education level is low,
 - the median income are low,
@@ -80,7 +76,7 @@ Out of sheer curiosity, how about the relationship between Front National and th
 <figure>
 <img src="/images/french_elections/scatters/immigrants.png" style="width: 100%;">
 </figure>
-The more foreigners, the less prone are voters to choose the Front National.
+It seems that the more immigrants in town, the less prone are voters to choose the Front National.
 
 <p style="text-align: center;">***</p>
 
@@ -89,7 +85,7 @@ And how about **population density** ?
 <img src="/images/french_elections/scatters/density.png" style="width: 100%;">
 </figure>
 As pointed out by Le Bras, big cities offer more opportunities, thus lowering the Front National score.
-But interestingly enough, this does not occurs in Provence.
+But interestingly enough, this is not the case in Provence.
 
 <p style="text-align: center;">***</p>
 
@@ -116,13 +112,16 @@ And incomes ?
 
 <figure>
 <img src="/images/french_elections/maps/unemployment_North.png" style="width: 100%;">
+<figcaption>Northern France</figcaption>
 </figure>
 <figure>
 <img src="/images/french_elections/maps/north_LePen.png" style="width: 100%;">
+<figcaption>Northern France</figcaption>
 </figure>
 
 <figure>
 <img src="/images/french_elections/maps/abstention_North.png" style="width: 100%;">
+<figcaption>Northern France</figcaption>
 </figure>
 
 
@@ -138,23 +137,28 @@ Finally, how about **elevation** ?
 </figure>
 <figure>
 <img src="/images/french_elections/maps/elevation_PACA.png" style="width: 100%;">
+<figcaption>Provence-Alpes-Côte d'Azur</figcaption>
 </figure>
 <figure>
 <img src="/images/french_elections/maps/LePen_PACA.png" style="width: 100%;">
+<figcaption>Provence-Alpes-Côte d'Azur</figcaption>
+
 </figure>
 <figure>
 <img src="/images/french_elections/maps/unemployment_PACA.png" style="width: 100%;">
+<figcaption>Provence-Alpes-Côte d'Azur</figcaption>
+
 </figure>
 
-Indeed, comparing with the region with the highest elevation gradient (Rhone Alpes), Le Pen does score poorly at high altitude.
+Indeed, comparing with an other region with high elevation gradient (Rhône Alpes), Le Pen does score poorly at high altitude.
 
 An other interesting observation is for the area of Nice, where unemployment is low and Le Pen high. This confirm the thesis of a two-headed Front National, one of the North, more social, and an other of the South, closer to Poujade.
 
 <p style="text-align: center;">***</p>
 
-# Creating a model
+### Creating a model
 
-Well, now we have a dataset with 35000 cities and for each 170 predictors (such as the ratio of camping place per habitant, the proportion of student or the local GDP).
+Well, now we have a dataset with 35000 cities and for each, 170 predictors (such as the ratio of camping place per habitant, the proportion of student or the local GDP).
 
 Instead of going through the painful process of features selection (as seen before, lots of multicollinearity here) and regularization, we prefer to hop in the Land Cruiser of Machine Learning :  **XGB Tree**.
 
@@ -163,7 +167,7 @@ Instead of going through the painful process of features selection (as seen befo
 <figcaption>Load the dataset, tune hyperparameters and off we go !</figcaption>
 </figure>
 
-For the detailed implementation of the algorithm, see here
+For the detailed implementation of the algorithm, see <a href="https://github.com/clementlefevre/france_elections/blob/master/XGB_elections.Rmd" target="_blank">here</a>
 
 <p style="text-align: center;">***</p>
 

@@ -1,20 +1,20 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
+title:            CL
+tagline:          Clement Lefevre.
+description:      small experimentations with data.
 canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Clement Lefevre
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  bio:            "Attraktiv & Preiswert"
+  email:          clement.san@gmail.com
+  twitter:        
+  github:         clementlefevre
+  instagram:      
+  dribbble:       
+  disqus:         
+  location:       "Berlin, DE"
   # Plug in your disqus shortname!
 
 tools:
@@ -31,10 +31,10 @@ links:
   - title: About
     url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+    url: https://github.com/clementlefevre
     external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+  - title: #VoyageVoyage
+    url: http://lefevre.at
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
