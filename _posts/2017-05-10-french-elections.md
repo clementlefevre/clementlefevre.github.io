@@ -12,7 +12,7 @@ image:
 
 
 It's now a well anchored habit in France : before each election, media (re)discover the rise of extrem right.
-Afterward, charts or dataviz' flood the internet to provide the best analysis : 
+Afterward, maps flood the internet to provide the best analysis such as: 
 
 <figure>
 	<img src="/images/french_elections/maps/renaud_epstein/fn_vs_tchernobyl.jpg">
@@ -29,10 +29,18 @@ A look at the original artwork French voters produced during the first round of 
 </figure>
 
 
+And focusing on the Front National :
+
+
+<figure>
+<img src="/images/french_elections/maps/cartograms/cartogram_LePen.png" style="width: 85%;">
+</figure>
+
+
 
 ### Elementary, my dear Pearson.
 
-Using data retrieved from the french national statistics office (INSEE), we focus on the two regions where the Front Nationql got the best results :
+Using data retrieved from the french national statistics office (INSEE), we focus on the two regions where the Front National got the best results :
 - The north (Hauts de France)
 - The south (Provence-Alpes-Côte d'Azur)
 
@@ -51,10 +59,11 @@ In **Provence**, Le Pen scores high where :
 - service sector is sparse,
 - and, weirdly, altitude is low.
 
-This last element deserve a digression : [Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), a french sociologist, son of a Minister, after having lost a campaign, decided to investigate the possible relationship between geology and political color.
+This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), a french sociologist and geograph, son of a Minister, after having lost a campaign, decided to investigate the possible relationship between geology and political orientation. He came to the following conclusion :  "granite votes right, limestone votes left".
 
 
 <p style="text-align: center;">*</p>
+
 
 
 In the **North**, Le Pen scores high where : 
@@ -62,13 +71,6 @@ In the **North**, Le Pen scores high where :
 - the median income are low,
 - unemployment is high.
 
-<p style="text-align: center;">*</p>
-
-
-In **Bretagne**, Le Pen scores high where : 
-- average education level is low,
-- the median income are low,
-- service sector is sparse.
 
 <p style="text-align: center;">***</p>
 
