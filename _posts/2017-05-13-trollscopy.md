@@ -87,12 +87,16 @@ Well, there is a pattern here :
 
 
 
+Now, using word vectorization and TFIDF (Term Frequency-Inverse Document Frequency), we can extract the main components describing the best the variance between the top commentators :
+
 
 <figure>
 	<img src="/images/trolloscopy/pca.png" style="width: 100%;">
-	<figcaption>PCA for top commentators - Source : Financial Times</figcaption>
+	<figcaption>PCA for the two heaviest eingenvectors (top commentators) - Source : Financial Times</figcaption>
 </figure>
 
+
+Here my take is that Njegos and Maljoffre are the same person.
 
 
 
