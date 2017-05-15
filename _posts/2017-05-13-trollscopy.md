@@ -52,7 +52,7 @@ And summarized in a matrix :
 </figure>
 
 
-Astonishingly, the top 10 commentators in term of quantity and "quality"(if we considere the number of likes a reasonable mertrics) are pro-Kremlin !
+Astonishingly, the top 10 commentators in term of quantity and "quality"(if we considere the number of likes a reasonable metrics) are pro-Kremlin !
 
 
 Now, taking the top commentators, how do their activity look like :
