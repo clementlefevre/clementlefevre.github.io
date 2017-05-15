@@ -106,7 +106,7 @@ Now, using word vectorization and TFIDF (Term Frequency-Inverse Document Frequen
 
 Here my take is that, given the proximity in terms of vocabulary, **Njegos** and **Maljoffre** are just one person.
 
-Next step would be to build a binary classifier to filter those commentators, who most of the time remain stuck in a ["whataboutism"](https://en.wikipedia.org/wiki/Whataboutism) spiral.
+Next step would be to build a binary classifier to filter those commentators, whose ["whataboutism"](https://en.wikipedia.org/wiki/Whataboutism) does pollute the debate.
 
 
 ### Sources
