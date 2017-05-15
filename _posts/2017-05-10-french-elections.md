@@ -59,7 +59,7 @@ In **Provence**, Le Pen scores high where :
 - service sector is sparse,
 - and, weirdly, altitude is low.
 
-This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), a french sociologist and geograph, son of a Minister, after having lost a campaign, decided to investigate the possible relationship between geology and political orientation. He came to the following conclusion :  *"granite votes right, limestone votes left"*.
+This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), son of a Minister, was a french sociologist and geograph at the beginning of the 20th century. After having lost a campaign, Siegfried investigated the possible relationship between geology and political orientation qnd came to the following conclusion :  *"granite votes right, limestone votes left"*.
 
 
 <p style="text-align: center;">*</p>
@@ -86,7 +86,7 @@ And how about **population density** ?
 <figure>
 <img src="/images/french_elections/scatters/density.png" style="width: 100%;">
 </figure>
-As pointed out by Le Bras, big cities offer more opportunities, thus lowering the Front National score.
+As pointed out by Hervé Le Bras, big cities offer more opportunities, thus lowering the Front National score.
 But interestingly enough, this is not the case in Provence.
 
 <p style="text-align: center;">***</p>
@@ -127,7 +127,7 @@ And incomes ?
 </figure>
 
 
-As Herve Le Bras already mentioned, poors have a low turnout. 
+As Hervé Le Bras already mentioned, poors have a low turnout. 
 In the north, Le Pen scores well where unemployment is high.
 
 
@@ -214,6 +214,24 @@ For the detailed implementation of the algorithm, see <a href="https://github.co
 <figure>
 <img src="/images/french_elections/xgb/features_importance_XGB.png" style="width: 100%;">
 </figure>
+
+
+**74% accuracy on the testing set** is not so bad, given the model does not take into account the local specificities and history (althought we use the outcome of the previous presidential election). 
+But what is striking is the high sensitivity of the Le Pen compared with her challenger, that might be related to the unbalanced aspect of the dataset : She finished first in half of the towns on the first round.
+
+Regarding the features weight, the 2012 results are overwhelmingly the best predictors. Then come :
+- the ratio of self-employed in the active population
+- population's density,
+- ratio of university degrees,
+- latitude,
+- elevation,
+- average income per household.
+
+
+So, on the scale of France, the elevation does play a significant role in the vote.
+
+
+
 
 ### References :
 
