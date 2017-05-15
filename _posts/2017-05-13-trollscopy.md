@@ -56,6 +56,7 @@ Astonishingly, the top 10 commentators in term of quantity and "quality"(if we c
 
 
 Now, taking the top commentators, how do their activity look like :
+Nota Bene : UTC+3 corresponds to Saint Petersburg.
 
 <figure>
 	<img src="/images/trolloscopy/timeline.png" style="width: 100%;">
@@ -71,6 +72,8 @@ Now, taking the top commentators, how do their activity look like :
 	<img src="/images/trolloscopy/timeline3.png" style="width: 100%;">
 	<figcaption>Source : Financial Times</figcaption>
 </figure>
+
+Well, looking at the activity curves, my take is those are people doing extra jobs as commentators.
 
 <figure>
 	<img src="/images/trolloscopy/top2liker_timeline.png" style="width: 100%;">
