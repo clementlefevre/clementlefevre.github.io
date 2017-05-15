@@ -59,10 +59,7 @@ Now, taking the top commentators, how do their activity look like :
 
 __Nota Bene : UTC+3 corresponds to Saint Petersburg.__
 
-<figure>
-	<img src="/images/trolloscopy/timeline.png" style="width: 100%;">
-	<figcaption>Source : Financial Times</figcaption>
-</figure>
+
 
 <figure>
 	<img src="/images/trolloscopy/timeline2.png" style="width: 100%;">
