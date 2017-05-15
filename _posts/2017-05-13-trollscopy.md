@@ -12,12 +12,12 @@ image:
 
 
 Beeing a regular reader of the FT, i find the quality of the comments section far above the standard level we can expect those days. The fact that only suscribers can comment gives it a touch of Gentleman's club.
-This makes the comment section an interesting study field for the Kremlin supporting members : no invective or so-called "meme", but rather structured debates. 
+This makes the comment section an interesting study field for the Kremlin supporting members : far away invective, the comments tend to be argumented and produce rich debates:
 
-I started by  retrieving the comments for articles related to the following keywords :
+thus I retrieved the comments for all articles related to the following keywords :
 **Syria, Gazprom, Brexit, MH17, NATO, Trump, Assad, Georgia, IOC, Doping, Putin, Merkel, Refugees, Afd, Le Pen, Obama, Russia**. 
 
-From February 2009 to Sept 2016, it produces a dataset of 240 000 comments for 10 000 articles.
+From February 2009 to Sept 2016, it generates a dataset of 240 000 comments for 10 000 articles.
 
 
 <figure>
