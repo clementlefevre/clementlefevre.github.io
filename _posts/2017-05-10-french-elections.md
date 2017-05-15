@@ -228,7 +228,7 @@ Regarding the features weight, the 2012 results are overwhelmingly the best pred
 - average income per household.
 
 
-So, on the scale of France, the elevation does play a significant role in the vote.
+So, on the scale of France, the elevation does indeed **play a significant role in the vote**. I'll quote Hervé Le Bras : for communities away from main communication axis and thus less prone to mobility, social interactions are stronger and rumours less likely to spread.
 
 
 
