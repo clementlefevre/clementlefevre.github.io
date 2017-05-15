@@ -12,7 +12,7 @@ image:
 
 
 Beeing a regular reader of the FT, i find the quality of the comments section far above the standard level we can expect those days. The fact that only suscribers can comment gives it a touch of Gentleman's club.
-This makes the comment section an interesting study field for the Kremlin supporting members : far away invective, the comments tend to be argumented and produce rich debates:
+This makes the comment section an interesting study field for the Kremlin supporting members : the argumentation tends to be well structured and  the length of the comments much longer than a tweet.
 
 I retrieved the comments for all articles related to the following keywords :
 
@@ -28,7 +28,7 @@ From February 2009 to Sept 2016, it generates a dataset of 240 000 comments for 
 </figure>
 
 
-A "Like" option allows commentators to tag the others.
+A "Like" option allows commentators to tag each others.
 
 
 Those are the top likers :
@@ -96,7 +96,9 @@ Now, using word vectorization and TFIDF (Term Frequency-Inverse Document Frequen
 </figure>
 
 
-Here my take is for instance, that **Njegos** and **Maljoffre** are the same person.
+Here my take is that, given the proximity in terms of vocabulary, **Njegos** and **Maljoffre** are just one person.
+
+Next step would be to build a binary classifier to filter those commentators, who most of the time remain stuck in a ["whataboutism"](https://en.wikipedia.org/wiki/Whataboutism) spiral.
 
 
 ### Sources
