@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No country for XGB Tree.
-description: Is altitude the best predictor for election ?
+description: Is altitude a good predictor for election ?
 comments: true
 category: articles
 published: true
