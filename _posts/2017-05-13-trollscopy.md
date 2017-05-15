@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trolloscopy.
-description: Analysing pro-kremlin comments in the Financial Times.
+description: Pro-Kremlin comments in the Financial Times.
 comments: true
 category: articles
 published: true
@@ -56,7 +56,8 @@ Astonishingly, the top 10 commentators in term of quantity and "quality"(if we c
 
 
 Now, taking the top commentators, how do their activity look like :
-Nota Bene : UTC+3 corresponds to Saint Petersburg.
+
+__Nota Bene : UTC+3 corresponds to Saint Petersburg.__
 
 <figure>
 	<img src="/images/trolloscopy/timeline.png" style="width: 100%;">
