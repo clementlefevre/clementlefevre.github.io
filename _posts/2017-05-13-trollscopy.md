@@ -25,6 +25,7 @@ From February 2009 to Sept 2016, it produces a dataset of 240 000 comments for 1
 	<figcaption>Source : Financial Times</figcaption>
 </figure>
 
+
 A "Like" option allows commentators to tag the others.
 
 
@@ -50,6 +51,12 @@ And summarized in a matrix :
 	<figcaption>Source : Financial Times</figcaption>
 </figure>
 
+
+Astonishingly, the top 10 commentators in term of quantity and "quality"(if we considere the number of likes a reasonable mertrics) are pro-Kremlin !
+
+
+Now, taking the top commentators, how do their activity look like :
+
 <figure>
 	<img src="/images/trolloscopy/timeline.png" style="width: 100%;">
 	<figcaption>Source : Financial Times</figcaption>
@@ -69,6 +76,13 @@ And summarized in a matrix :
 	<img src="/images/trolloscopy/top2liker_timeline.png" style="width: 100%;">
 	<figcaption>Source : Financial Times</figcaption>
 </figure>
+
+Well, there is a pattern here :
+- March 2014 : Crimean annexion
+- Sept 2015 : Putin intervenes in Syria
+- October 2016 : Doping scandal
+
+
 
 
 <figure>
