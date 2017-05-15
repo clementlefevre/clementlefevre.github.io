@@ -74,7 +74,7 @@ __Nota Bene : UTC+3 corresponds to Saint Petersburg.__
 	<figcaption>Source : Financial Times</figcaption>
 </figure>
 
-Well, looking at the activity curves, my take is those are people doing extra jobs as commentators.
+Looking at the activity curves, my take is those are people doing extra jobs as commentators.
 
 <figure>
 	<img src="/images/trolloscopy/top2liker_timeline.png" style="width: 100%;">
@@ -97,9 +97,15 @@ Now, using word vectorization and TFIDF (Term Frequency-Inverse Document Frequen
 </figure>
 
 
-Here my take is that Njegos and Maljoffre are the same person.
+Here my take is for instance, that **Njegos** and **Maljoffre** are the same person.
 
 
+### Sources
+
+
+- [Link to the dataset](https://github.com/clementlefevre/trolloscopy/tree/master/comments)
+- [Link to the Notebook 1](https://github.com/clementlefevre/trolloscopy/blob/master/Liker_analysis.ipynb)
+- [Link to the Notebook 2](https://github.com/clementlefevre/trolloscopy/blob/master/Text_analysis.ipynb)
 
 ### References :
 
