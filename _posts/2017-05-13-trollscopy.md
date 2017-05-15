@@ -57,7 +57,7 @@ And summarized in a matrix :
 Astonishingly, the top 10 commentators in term of quantity and "quality"(if we considere the number of likes a reasonable metrics) are pro-Kremlin !
 
 
-Now, taking the top commentators, how do their activity look like :
+Now, taking the top commentators, how do their activity looks like :
 
 __Nota Bene : UTC+3 corresponds to Saint Petersburg.__
 
