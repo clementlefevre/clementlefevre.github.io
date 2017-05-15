@@ -14,6 +14,14 @@ image:
 Beeing a regular reader of the FT, i find the quality of the comments section far above the standard level we can expect those days. The fact that only suscribers can comment gives it a touch of Gentleman's club.
 This makes the comment section an interesting study field for the Kremlin supporting members : the argumentation tends to be well structured and  the length of the comments much longer than a tweet.
 
+The problem with pro-Kremlin commentators is that, instead of providing facts and figure in the debate, they flood the thread with such comment :
+
+<figure>
+	<img src="/images/trolloscopy/judyW.png" style="width: 95%;">
+	<figcaption>From article "Hackers hit Macron campaign with ‘massive’ attack" - Source : Financial Times</figcaption>
+</figure>
+
+
 I retrieved the comments for all articles related to the following keywords :
 
 
