@@ -59,7 +59,7 @@ In **Provence**, Le Pen scores high where :
 - service sector is sparse,
 - and, weirdly, altitude is low.
 
-This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), son of a Minister, was a french sociologist and geograph at the beginning of the 20th century. After having lost a campaign, Siegfried investigated the possible relationship between geology and political orientation qnd came to the following conclusion :  *"granite votes right, limestone votes left"*.
+This last element deserves a short digression : [André Siegfried](https://fr.wikipedia.org/wiki/Tableau_politique_de_la_France_de_l%27Ouest_sous_la_Troisi%C3%A8me_R%C3%A9publique), son of a Minister, was a french sociologist and geograph at the beginning of the 20th century. After having lost a campaign, Siegfried investigated the possible relationship between geology and political orientation and came to the following conclusion :  *"granite votes right, limestone votes left"*.
 
 
 <p style="text-align: center;">*</p>
