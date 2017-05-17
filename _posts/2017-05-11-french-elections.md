@@ -72,6 +72,9 @@ In the **North**, Le Pen scores high where :
 - unemployment is high.
 
 
+The contrast between the correlation for South And North
+
+
 <p style="text-align: center;">***</p>
 
 Out of sheer curiosity, how about the relationship between Front National and the **percentage of immigrants** ?
@@ -154,7 +157,7 @@ Finally, how about **elevation** ?
 
 Indeed, comparing with an other region with high elevation gradient (Rhône Alpes), Le Pen does score poorly at high altitude.
 
-An other interesting observation is for the area of Nice, where unemployment is low and Le Pen high. This confirm the thesis of a two-headed Front National, one of the North, more social, and an other of the South, closer to Poujade.
+An other interesting observation is for the area of Nice, where unemployment is low and Le Pen high. This confirm the thesis of a two-headed Front National, one of the North, more social, and an other of the South, closer to Poujade. And following latest development in the french political landscape (as of may 2017), it might augure a **schism within the Front National**.
 
 <p style="text-align: center;">***</p>
 
