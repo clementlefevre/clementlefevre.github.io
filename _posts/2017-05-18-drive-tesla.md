@@ -14,10 +14,14 @@ The new hype : neural network for anything.
 There are two ways to do it :
 
 - try to set up a working environment yourself and enter a world of pain.
-- or launch the AWS Deep Learning AMI
+- or launch a AWS machine [Deep Learning AMI](https://aws.amazon.com/marketplace/pp/B01M0AXXQB)
+
+I choose the second option.
 
 
-I choose the second option, and scrapped all the lyrics of Gainsbourg.
+After having scrapped all the lyrics of Serge Gainsbourg, i connected to a p2.xlarge AWS instance with a Tesla K80.
+
+It works fine, just check the Python/Keras/Tensorflow trio versioning.
 
 
 Here is the result with a two layers network after 60 iterations :
