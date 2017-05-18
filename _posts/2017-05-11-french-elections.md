@@ -242,3 +242,4 @@ So, on the scale of France, the elevation does indeed **play a significant role 
 - [Exode urbain et inégalités : les cartes du vote FN](https://www.franceculture.fr/politique/exode-urbain-et-inegalites-les-cartes-du-vote-fn)
 - [Statistics per town - french institute for statistics and economics studies- INSEE](https://www.data.gouv.fr/fr/datasets/data-insee-sur-les-communes/)
 - [Presidential elections results - first round](https://www.data.gouv.fr/fr/datasets/election-presidentielle-des-23-avril-et-7-mai-2017-resultats-du-1er-tour-1/)
+- [The Economist : daily chart](http://www.economist.com/blogs/graphicdetail/2017/05/daily-chart-5)
