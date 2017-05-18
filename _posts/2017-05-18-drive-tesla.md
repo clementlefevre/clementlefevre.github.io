@@ -19,7 +19,8 @@ There are two ways to do it :
 
 I choose the second option, and scrapped all the lyrics of Gainsbourg.
 
-The result after 60 iterations :
+
+Here is the result with a two layers network after 60 iterations :
 
 **quand me viens l'eau a la bouuuche,**
 
