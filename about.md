@@ -12,3 +12,4 @@ This site is a collection of some projects i did on my spare time.
 The theme used for this jekyll site is [Balzac](https://github.com/ColeTownsend/Balzac-for-Jekyll).
 
 The one thing i know : I will never understand text encoding in python.
+The one thing i know : I will never understand text encoding in python.
