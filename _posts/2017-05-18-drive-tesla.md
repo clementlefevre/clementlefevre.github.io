@@ -6,7 +6,7 @@ comments: true
 category: articles
 published: true
 image:
-  feature: tesla/jane-birkin-serge-gainsbourg.jpeg
+  feature: tesla/dream.png
 ---
 
 
@@ -47,10 +47,6 @@ Here is the result with a two layers network after 60 iterations :
 #### Segre Gnainsbuor.
 
 
-<figure>
-	<img src="/images/tesla/dream.png" style="width: 70%;">
-	<figcaption>Deep Dream</figcaption
-</figure>
 
 
 
