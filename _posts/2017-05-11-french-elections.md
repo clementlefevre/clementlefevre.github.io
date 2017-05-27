@@ -72,8 +72,6 @@ In the **North**, Le Pen scores high where :
 - unemployment is high.
 
 
-The contrast between the correlation for South And North
-
 
 <p style="text-align: center;">***</p>
 
