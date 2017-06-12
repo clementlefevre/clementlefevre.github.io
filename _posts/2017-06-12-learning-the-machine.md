@@ -21,7 +21,7 @@ Like lots of people, it was my first ML course.
 
 ### [CS109 courses from Harvard](http://cs109.github.io/2015/pages/videos.html).
 
-It's a kind of 360° view of Data science : stats, programming, infrastructure (AWS E2C), data visualisation (Tableau).
+It's a kind of 360° view of Data science : stats, programming, infrastructure (AWS E2C), data visualization (Tableau).
 
 - Pros : Blizstein (for the Stats part) is really cool to watch, an interesting focus on the "Story telling" aspect,  assignements as Jupiter Notebooks.
 - Cons : N/A.
