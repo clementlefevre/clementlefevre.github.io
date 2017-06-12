@@ -11,7 +11,6 @@ image:
 
 Learning by doing, well, this is a summary of my own self-teaching experience (in the chronological order) in the field of data science. Hoping it can help.
 
-. 
 
 ### [Andrew Ng's "Machine Learning" Coursera](https://www.coursera.org/learn/machine-learning)
 Like lots of people, it was my first ML course.
