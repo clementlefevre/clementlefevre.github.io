@@ -15,7 +15,7 @@ Learning by doing, well, this is a summary of my own self-teaching experience (i
 ### [Andrew Ng's "Machine Learning" Coursera](https://www.coursera.org/learn/machine-learning)
 Like lots of people, it was my first ML course.
 
-- Pros : good overview of ML principles, practical exercices
+- Pros : good overview of ML principles, you implement yourself the different algorithms.
 - Cons : assignments in Matlab, Decision Trees are not covered.
 - Workload : 6 hours/week for 2-3 months.
 
