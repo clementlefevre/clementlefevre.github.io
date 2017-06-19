@@ -2,7 +2,7 @@
 layout: post
 permalink: /about/index.html
 title: About
-description: the shorter the better.
+description: 
 tags: [about, Jekyll, theme, responsive]
 image:
   feature: bosch_1.jpg
