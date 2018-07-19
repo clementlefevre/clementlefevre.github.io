@@ -99,15 +99,12 @@ There does not seem to give any correlation between the mean temperature (TM) or
 |:--:|
 |![](/images/fast_and_curious/heatmap.png)|
 
-One hypothesis : the speedings occurs more often early in the morning or beginning of the after noon, which match with the male testosteron variation in the day. Sunday (low traffic) amplifies this trend.
+One hypothesis : the speedings occur more often early in the morning or beginning of the after noon, which match with the male testosteron variation in the day. Sunday (low traffic) amplifies this trend.
 
+|Speeding heatmap|
+|:--:|
+|![](/images/fast_and_curious/testosteron.png)|
 
-
-
-
-## Conclusion
-
-What a disapointment : hours spent to label pictures, train a model, and finally such a poor result. 
 
 
 
