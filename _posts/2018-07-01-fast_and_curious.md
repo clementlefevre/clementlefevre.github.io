@@ -24,7 +24,7 @@ The idea was to have a first experience with image classification with deep neur
 |![](/images/fast_and_curious/speedcam1.png)|
 
 
-I used the  [speedcam project](https://github.com/pageauc/speed-camera), an openCV based script that compute the estimated speed of moving object, and stored the resulting pictures and speed data on a S3 instance.
+I used the  [speedcam project](https://github.com/pageauc/speed-camera), an openCV based script that compute the estimated speed of moving objects, and stored the resulting pictures and speed data on a S3 instance.
 
 The setup and calibration of the raspi with this software is well documented.
 
@@ -45,10 +45,15 @@ For my first try, i did not use transfer learning like pretrained network. For t
 
 Although the training set has been labeled with 10 categories, i used  as a matter of simplification,a binary classifier (car/bike). Indeed, the dataset is very unbalanced (few ambulances vs lots of cars)
 
+The Network structure :
+
+
+
 
 With a low-end graphic card, the model training takes 2 hours.
 
 Finally, using the classifier build from scratch, we can classify the picture. 
+
 |Bikes vs Cars|
 |:--:|
 |![](/images/fast_and_curious/bike_car.png)|
