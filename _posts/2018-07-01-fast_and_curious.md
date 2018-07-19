@@ -12,30 +12,45 @@ image:
 
 
 
-## I. Definition
 
 
-### Project Overview
-AirBnB is an online platform for accomodation. Since its launch in 2008, it provides now 3,000,000 lodging listings in 65,000 cities and 191 countries (source : *wikipedia*).
-
-In Berlin, amongst the 17,810 registered hosts, 13% are considered as active users (the last review was done in the last 10 days).
-The first member registered in 2008, and there are 20,576 offers as of may 2017, 7700 being considered as active*.
-
-In this study, we will focus on the full appartments offered on AirBnB in Europe, with a focus on Berlin.
-
-For the context, here are some charts to understand the situation of Berlin amongst the others world-class cities  in term of tourism :
-
-
-**active listing** : listing with an availability for the next 90 days higher than zero and with at least one review in the last 60 days.
 
 |Visitors vs expenditures|
 |:--:|
-|![](/images/airbnb/capital_report_master_card.png)|
+|![](/images/fast_and_curious/speedcam1.png)|
 
-
-|AirBnB renting structure|
+|Bikes vs Cars|
 |:--:|
-|![](/images/airbnb/city_benchmark_room_type.png)|
+|![](/images/fast_and_curious/bike_car.png)|
+
+
+
+|![](/images/fast_and_curious/heatmap.png)|
+
+
+|![](/images/fast_and_curious/mechanicalfrench.png)|
+
+|![](/images/fast_and_curious/model.png)|
+
+|![](/images/fast_and_curious/speed_temp_bike.png)|
+
+|![](/images/fast_and_curious/speedcam1.png)|
+
+|![](/images/fast_and_curious/SpeedCamFlowChart.png)|
+
+|![](/images/fast_and_curious/title.png)|
+
+|![](/images/fast_and_curious/traffic_2018-05-11.png)|
+
+|![](/images/fast_and_curious/zwift.png)|
+
+
+SpeedCamFlowChart.png
+model.png	traffic_2018-05-11.png
+bike_car.png		speed_temp_bike.png	zwift.png
+heatmap.png		speedcam1.png
+mechanicalfrench.png	title.png
+
 
 
 For a population of 3,5 Millions inhabitants, Berlin has a relatively low number of active offers compared to Amsterdam (population 0,85 Millions) or Barcelona (population 1,6 Millions).
