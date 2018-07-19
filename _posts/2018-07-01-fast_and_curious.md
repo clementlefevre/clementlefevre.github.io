@@ -18,9 +18,11 @@ The idea was to have a first experience with image classification with deep neur
 
 
 ## Image recording and processing
+
 |Speedcam Screenshot|
 |:--:|
 |![](/images/fast_and_curious/speedcam1.png)|
+
 
 I used the  [speedcam project](https://github.com/pageauc/speed-camera), an openCV based script that compute the estimated speed of moving object, and stored the resulting pictures and speed data on a S3 instance.
 
@@ -28,7 +30,8 @@ The setup and calibration of the raspi with this software is well documented.
 
 ## The Mechanical French : label your pictures by hand.
 
-Using those raw data, i labeled all the records, with the help of a homemade product : **The Mechanical French**, whose hourly rate is significantly lower than its foreign counterpart. Managed to classify 20000 pictures within 15 hours. Joke apart, it is a simple Flask app i wrote, as i could not find any opensource tool.
+Once data are recorded (one picture per vehicle measured), we can start the classification process.
+Using those raw data, i labeled 20000 pictures, with the help of a homemade product : **The Mechanical French**  (as i could not find any opensource tool.). This labeling process took me 15 hours.
 
 |The mechanical french, a revolutionary labelling interface.|
 |:--:|
@@ -37,9 +40,15 @@ Using those raw data, i labeled all the records, with the help of a homemade pro
 
 ## The deep dive 
 
-Once all training pictures are labellized, we can start training a convolutional network model.
+Once all training pictures are labeled, we can start training a convolutional network model.
+For my first try, i did not use transfer learning like pretrained network. For those interested in this technique, Francois Chollet did an excellent job to explain the concept with an hands-on example [here](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/5.3-using-a-pretrained-convnet.ipynb).
+
+Although the training set has been labeled with 10 categories, i used  as a matter of simplification,a binary classifier (car/bike). Indeed, the dataset is very unbalanced (few ambulances vs lots of cars)
 
 
+With a low-end graphic card, the model training takes 2 hours.
+
+Finally, using the classifier build from scratch, we can classify the picture. 
 |Bikes vs Cars|
 |:--:|
 |![](/images/fast_and_curious/bike_car.png)|
