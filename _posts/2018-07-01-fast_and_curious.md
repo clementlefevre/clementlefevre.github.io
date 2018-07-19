@@ -71,10 +71,10 @@ model = Sequential()
 
 With a low-end graphic card, the model training takes 2 hours and has a 97% accuracy.
 
-Finally, using this classifier built from scratch, we can classify all the picture. 
+Finally, using this classifier built from scratch, we can sort all the pictures. 
 
 
-### Result
+### Results
 
 This is the overall vehicle flow in the street for a full month.
 The first days suffered from a faulty usb cable on the rasperry pi. At the end, i forgot to plug it in the morning after using it to charge my phone.
@@ -84,7 +84,7 @@ The first days suffered from a faulty usb cable on the rasperry pi. At the end, 
 |![](/images/fast_and_curious/bike_car.png)|
 
 
-|Average speed during a day|
+|Average speed (km/h) during a day|
 |:--:|
 |![](/images/fast_and_curious/traffic_2018-05-11.png)|
 
@@ -94,11 +94,15 @@ The first days suffered from a faulty usb cable on the rasperry pi. At the end, 
 |![](/images/fast_and_curious/heatmap.png)|
 
 
+There does not seem to give any correlation between the mean temperature (TM) or the bikes flow and the number of speeding.
 |Mean Temperature vs Speeding vs Bikes flow|
 |:--:|
 |![](/images/fast_and_curious/speed_temp_bike.png)|
 
 
+## Conclusion
+
+What a disapointment : hours spent to label pictures, train a model, and finally such a poor result. 
 
 
 
