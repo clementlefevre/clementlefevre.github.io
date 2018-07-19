@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fast And Curious
-description: Testosteron-off.
+description: Testosteron / Testosteroff.
 comments: true
 category: articles
 published: true
@@ -101,7 +101,7 @@ There does not seem to give any correlation between the mean temperature (TM) or
 
 One hypothesis : the speedings occur more often early in the morning or beginning of the after noon, which match with the male testosteron variation in the day. Sunday (low traffic) amplifies this trend.
 
-|Speeding heatmap|
+|Source : Random Google|
 |:--:|
 |![](/images/fast_and_curious/testosteron.png)|
 
