@@ -19,7 +19,7 @@ The idea was to have a first experience with image classification with deep neur
 
 ### Image recording and processing
 
-|Speedcam Screenshot|
+|The 247 Mercedes Benz Citaro :  110 dB, every 15 minutes|
 |:--:|
 |![](/images/fast_and_curious/speedcam1.png)|
 
@@ -38,7 +38,7 @@ Using those raw data, i labeled 20 000 pictures, with the help of a homemade pro
 |![](/images/fast_and_curious/mechanicalfrench.png)|
 
 
-### The deep dive 
+### Deep dive 
 
 Once all training pictures are labeled, we can start training a convolutional network model.
 For my first try, i did not use transfer learning like pretrained network. For those interested in this technique, Francois Chollet did an excellent job to explain the concept with an hands-on example [here](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/5.3-using-a-pretrained-convnet.ipynb).
@@ -47,7 +47,8 @@ Although the training set has been labeled with 10 categories, i used  as a matt
 
 The Network structure :
 
-`model = Sequential()
+`
+model = Sequential()
     model.add(Conv2D(32, (3, 3), input_shape=input_shape))
     model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
@@ -65,16 +66,27 @@ The Network structure :
     model.add(Activation('relu'))
     model.add(Dropout(0.5))
     model.add(Dense(nb_category))
-    model.add(Activation('sigmoid'))`
+    model.add(Activation('sigmoid'))
+    `
+
+With a low-end graphic card, the model training takes 2 hours and has a 97% accuracy.
+
+Finally, using this classifier built from scratch, we can classify all the picture. 
 
 
-With a low-end graphic card, the model training takes 2 hours.
+### Result
 
-Finally, using the classifier build from scratch, we can classify the picture. 
+This is the overall vehicle flow in the street for a full month.
+The first days suffered from a faulty usb cable on the rasperry pi. At the end, i forgot to plug it in the morning after using it to charge my phone.
 
 |Bikes vs Cars|
 |:--:|
 |![](/images/fast_and_curious/bike_car.png)|
+
+
+|Average speed during a day|
+|:--:|
+|![](/images/fast_and_curious/traffic_2018-05-11.png)|
 
 
 |Speeding heatmap|
@@ -88,15 +100,8 @@ Finally, using the classifier build from scratch, we can classify the picture.
 
 
 
-|Overall Infrastructure|
-|:--:|
-|![](/images/fast_and_curious/SpeedCamFlowChart.png)|
 
 
-
-|Average speed during a day|
-|:--:|
-|![](/images/fast_and_curious/traffic_2018-05-11.png)|
 
 
 -----------
