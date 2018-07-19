@@ -88,16 +88,20 @@ The first days suffered from a faulty usb cable on the rasperry pi. At the end, 
 |:--:|
 |![](/images/fast_and_curious/traffic_2018-05-11.png)|
 
+There does not seem to give any correlation between the mean temperature (TM) or the bikes flow and the number of speeding.
+
+|Mean Temperature vs Speeding vs Bikes flow|
+|:--:|
+|![](/images/fast_and_curious/speed_temp_bike.png)|
+
 
 |Speeding heatmap|
 |:--:|
 |![](/images/fast_and_curious/heatmap.png)|
 
+Well, that the only takeaway from this project : the speedings occurs more often on Sunday, either early in the morning (empty streets) or beginning of the after noon, which match with the male testosteron variation in the day.
 
-There does not seem to give any correlation between the mean temperature (TM) or the bikes flow and the number of speeding.
-|Mean Temperature vs Speeding vs Bikes flow|
-|:--:|
-|![](/images/fast_and_curious/speed_temp_bike.png)|
+
 
 
 ## Conclusion
