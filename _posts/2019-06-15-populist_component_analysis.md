@@ -6,7 +6,7 @@ comments: false
 category: articles
 published: true
 image:
-  feature: populist_component_analysis/nigelito.png
+  feature: populist_component_analysis/zzRT.jpg
 ---
 
 
@@ -14,7 +14,7 @@ image:
 
 
 Using the data retrieved from the Vote Watch NGO website for the 2014-19 European Parliementary session,
-i tried to rebuild the nice plot from the economist.
+i tried to rebuild this [nice plot from the economist](https://www.economist.com/graphic-detail/2019/06/01/centrist-liberals-gained-the-most-power-in-the-eu-parliament).
 
 You can see the vizualisation [here](https://clementlefevre.shinyapps.io/mep_term8_pca/) and download the raw data from the *about* section.
 
