@@ -6,7 +6,7 @@ comments: false
 category: articles
 published: true
 image:
-  feature: populist_componen_analysis/nigelito.png
+  feature: populist_component_analysis/nigelito.png
 ---
 
 
