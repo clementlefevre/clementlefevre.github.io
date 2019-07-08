@@ -14,7 +14,10 @@ image:
 
 
 Using the data retrieved from the Vote Watch NGO website for the 2014-19 European Parliementary session,
-i tried to rebuild this [nice plot from the economist](https://www.economist.com/graphic-detail/2019/06/01/centrist-liberals-gained-the-most-power-in-the-eu-parliament).
+i tried to rebuild this [nice plot from the economist](https://www.economist.com/graphic-detail/2019/06/01/centrist-liberals-gained-the-most-power-in-the-eu-parliament) :
+
+![alt text](/images/populist_component_anaylsis/the_economist.png "The economist")
+
 
 You can see the vizualisation [here](https://clementlefevre.shinyapps.io/mep_term8_pca/) and download the raw data from the *about* section.
 
