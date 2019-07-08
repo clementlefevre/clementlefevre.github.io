@@ -47,11 +47,11 @@ Although the training set has been labeled with 10 categories, i used  as a matt
 
 The Network structure :
 
-`model = Sequential()
+
+model = Sequential()
     model.add(Conv2D(32, (3, 3), input_shape=input_shape))
     model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
-
     model.add(Conv2D(32, (3, 3)))
     model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
@@ -65,7 +65,7 @@ The Network structure :
     model.add(Activation('relu'))
     model.add(Dropout(0.5))
     model.add(Dense(nb_category))
-    model.add(Activation('sigmoid'))`
+    model.add(Activation('sigmoid'))
 
 With a low-end graphic card, the model training takes 2 hours and has a 97% accuracy.
 
