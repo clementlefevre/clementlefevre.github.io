@@ -6,7 +6,7 @@ comments: true
 category: articles
 published: true
 image:
-  feature: fast_and_curious/title.png
+  feature: fast_and_curious/henri_lartigue.jpeg
 ---
 
 
