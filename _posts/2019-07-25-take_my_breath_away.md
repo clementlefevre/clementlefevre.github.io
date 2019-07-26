@@ -28,7 +28,7 @@ All the scrapping scripts for both Luftdaten and DWD are available on the [githu
 
 
 
-Work in progress see the shiny app [here](https://clementlefevre.shinyapps.io/Air_square/)
+Work in progress see the shiny app [here](https://clementlefevre.shinyapps.io/air_square/)
 
 
 -----------
