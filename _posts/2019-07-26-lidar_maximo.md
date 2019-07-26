@@ -11,8 +11,7 @@ image:
 ---
 
 
-## Playing with Lidar data
-
+First i discovered the amazing package [Rayshader](https://github.com/tylermorganwall/rayshader) for R and [played a little bit with](https://github.com/clementlefevre/litto3d) 
 After having stumbled upon this nice vizualisation from Fabien Lezeau @LzuFabien :
 ![alt text](/images/lidar_maximo/Fabien_Lezeau.jpeg "Map of Lebanon")
 
