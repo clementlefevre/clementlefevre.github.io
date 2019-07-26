@@ -46,7 +46,7 @@ Quick walkthrough to render on Google Colab:
 - use the [*blender_test.ipynb*](https://github.com/clementlefevre/litto3d/blob/master/blender_test.ipynb) from the github as template.
 - adjust the [*config.py*](https://github.com/clementlefevre/litto3d/blob/master/config.py) file from the github repo (set raster & tiles files names)
 - upload on your google drive the raster file, the tile file (both .tiff), the .blend file and the config.py.
-- run the notebook, it will first install blender, compile CUDA, anf finally render into the ouput.png file (see the left tab "file" in the notebook,click "refresh")
+- run the notebook, it will first install blender, compile CUDA, and finally render into the ouput.png file (see the left tab "file" in the notebook,click "refresh")
 
 
 
