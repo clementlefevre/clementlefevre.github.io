@@ -23,11 +23,19 @@ On top of that i retrieved the [2018 Lidar data from Berlin](https://fbinter.sta
 Finally, and before my desk began to burn with the CPU overheat, i found a way to run Blender on Google Colab.
 This is really nice, (and free), as you can simply upload your raster files and blender on google drive and run the rendering from your browser with a Tesla K80 GPU. What required 5 hours on my old laptop takes 6 minutes, which i considere an improvement.
 
-Just open the picture in a new tab to zoom :
+Just open the picture in a new tab to zoom, or better, download them to open them with an image viewer :
 
 ![alt text](/images/lidar_maximo/berlin_humboldthain.png "Berlin Humboldthain")
 
 ![alt text](/images/lidar_maximo/berlin_mitte.png "Berlin Mitte")
+
+![alt text](/images/lidar_maximo/tegel.png "Berlin Tegel")
+
+
+And for this one, i used the [IGN Litto3d data](https://diffusion.shom.fr/pro/risques/altimetrie-littorale.html) :
+
+![alt text](/images/lidar_maximo/camaret_MNT1_worked.png "Bretagne - Camaret")
+
 
 
 -----------
