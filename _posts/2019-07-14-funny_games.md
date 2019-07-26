@@ -21,7 +21,7 @@ For this i first downloaded all the 1435 episodes of the "Chemins de la Connaiss
 
 Seems that AWS does not perform well in english. 
 
-Mozilla on its side has the deep speech project (based on Tensorflow), but there is a of today no french pretrained french model to use.
+Mozilla on its side has the deep speech project (based on Tensorflow), but there is a of today no french pretrained model to use.
 
 I thus used the experimental Google Speech to Text API with the diarization feature. This means the speech will be transcribed into a conversation rather a plain transcription.
 
