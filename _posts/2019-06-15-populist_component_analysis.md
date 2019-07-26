@@ -6,7 +6,7 @@ comments: false
 category: articles
 published: true
 image:
-  feature: populist_component_analysis/zzRT.jpg
+  feature: populist_component_analysis/hans-baluschek-nuit-decc81tecc81-1928.jpg
 ---
 
 
