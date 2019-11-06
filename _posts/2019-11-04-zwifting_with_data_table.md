@@ -15,12 +15,10 @@ image:
 After having used the tidyverse toolkit for a while to wrangle data in R, i recently switched to the data.table package. I found this [page](http://franknarf1.github.io/r-tutorial/_book/tables.html#tables) very helpful to grasp the power of **data.table**.
 
 
-|  PC1 - PC2 on text reviews |
-|:--:|
-|![](/images/zwifting_with_data_table/logo.png)|
+
+![An image](/images/zwifting_with_data_table/logo.png) <!-- .element height="50%" width="50%" -->
 
 
-![alt text](/images/zwifting_with_data_table/logo.png "The data.table logo : an Aha moment once i understood it deepest meaning...")<!-- .element height="50%" width="50%" -->
 
 
 For dataset bigger than 1GB than can fit into the RAM, read, write, filter and aggregations operations are 10 to 100 times faster than the dplyr/base R tools.
