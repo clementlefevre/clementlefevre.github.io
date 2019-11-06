@@ -19,7 +19,6 @@ For dataset bigger than 1GB than can fit into the RAM, read, write, filter and a
 On top of that, i found its syntax extremely concise, like writing Haiku in R.
 I started learning R using the dplyr/tidyr packages three years ago, and switching to data.table is a logical evolution.
 
-![An image](/images/zwifting_with_data_table/logo.jpg)
 
 As a [Zwift](https://zwift.com/) player, i explored their API with the help of data.table.
 
