@@ -6,15 +6,15 @@ comments: false
 category: articles
 published: true
 image:
-  feature: zwifting with data.table/tom_simpson.jpg
-
+  feature: zwifting_with_data_table/tom_simpson.jpg
+  
 ---
 
 (Tom Simpson / Mont Ventoux,  13th July 1967)
 
 After having used the tidyverse toolkit for a while to wrangle data in R, i recently switched to the data.table package. I found this [page](http://franknarf1.github.io/r-tutorial/_book/tables.html#tables) very helpful to grasp the power of **data.table**.
 
-![alt text](/images/zwifting with data.table/logo.png "The data.table logo : an Aha moment once i understood it deepest meaning...")
+![alt text](/images/zwifting_with_data_table/logo.png "The data.table logo : an Aha moment once i understood it deepest meaning...")
 
 
 For dataset bigger than 1GB than can fit into the RAM, read, write, filter and aggregations operations are 10 to 100 times faster than the dplyr/base R tools.
