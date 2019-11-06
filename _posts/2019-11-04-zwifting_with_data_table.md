@@ -16,7 +16,7 @@ After having used the tidyverse toolkit for a while to wrangle data in R, i rece
 
 
 
-![An image](/images/zwifting_with_data_table/logo.png) <!-- .element height="50%" width="50%" -->
+![An image](/images/zwifting_with_data_table/logo.jpg) <!-- .element height="50%" width="50%" -->
 
 
 
