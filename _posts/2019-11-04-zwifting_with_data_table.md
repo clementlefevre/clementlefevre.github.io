@@ -16,7 +16,7 @@ After having used the tidyverse toolkit for a while to wrangle data in R, i rece
 
 
 
-![alt text](/images/zwifting_with_data_table/logo.png =250x"The data.table logo : an Aha moment once i understood it deepest meaning...")
+![alt text](/images/zwifting_with_data_table/logo.png "The data.table logo : an Aha moment once i understood it deepest meaning...")
 
 
 For dataset bigger than 1GB than can fit into the RAM, read, write, filter and aggregations operations are 10 to 100 times faster than the dplyr/base R tools.
