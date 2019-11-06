@@ -1,14 +1,16 @@
 ---
 layout: post
-title: Sharing is Biking
-description: visual experimentations vith Berlin Bikesharing dataset
+title: Switching to data.table with Zwift
+description: the cousin of pandas is a morse.
 comments: false
 category: articles
 published: true
 image:
-  feature: zwift/deckgl.png
+  feature: zwifting with data.table/tom_simpson.jpg
 
 ---
+
+(Tom Simpson / Mont Ventoux,  13th July 1967)
 
 After having used the tidyverse toolkit for a while to wrangle data in R, i recently switched to the data.table package. I found this [page](http://franknarf1.github.io/r-tutorial/_book/tables.html#tables) very helpful to grasp the power of **data.table**.
 

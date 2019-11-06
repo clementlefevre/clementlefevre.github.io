@@ -9,7 +9,7 @@ image:
   feature: populist_component_analysis/hans-baluschek-nuit-decc81tecc81-1928.jpg
 ---
 
-(SommerabendBaluschek, Hans 1870–1935)
+(Sommerabend / Baluschek, Hans 1870–1935)
 
 ## Is there a pattern in our MEP vote behavior ?
 
