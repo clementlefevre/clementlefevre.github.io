@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing is Biking
-description: visual experimentations vith Berlin Bikesharing dataset
+description: visual experimentations with Berlin Bikesharing dataset
 comments: false
 category: articles
 published: true
