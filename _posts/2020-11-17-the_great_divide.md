@@ -7,7 +7,7 @@ category: articles
 published: true
 image:
   feature: the_great_divide/gleimstrasse.PNG
-  caption: "the Berliner Biofilter"
+  
   
 ---
 
@@ -23,7 +23,10 @@ An other shortcoming of Tableau is the lack of dynamic setting of data source. T
 
 That is why when you need a real dynamic binding between your dashboard and the backend (think compute a new prediction), i definitely would stick on Javascript (the D3js library and its wrapper offers endless possibilities and customization), especially as current Javascripts frameworks (react, vue) have become mature and well maintained.
 
-[Source Code](https://github.com/clementlefevre/berlin_grundschulen_2019_2021)
+You can find the related [Source Code](https://github.com/clementlefevre/berlin_grundschulen_2019_2021) here.
+
+
+
 -----------
 
 
