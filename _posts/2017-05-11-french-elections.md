@@ -41,7 +41,7 @@ And focusing on the Front National :
 ### Elementary, my dear Pearson.
 
 Using data retrieved from the french national statistics office (INSEE), we focus on the two regions where the Front National got the best results :
-- The north (Hauts de France)
+- The north (Hauts-de-France)
 - The south (Provence-Alpes-Côte d'Azur)
 
 
