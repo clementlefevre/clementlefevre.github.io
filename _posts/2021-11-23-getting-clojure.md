@@ -40,7 +40,7 @@ Coming back to my application, i then pretrained a XGB classifier in python, and
 I ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 3MB), serving a VueJs Dashboard with a Webassembly file running a pretrained XGBoost Classifier. And i forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
 The future is now !
 
-[link to the XGBoost Webassembly code](https://github.com/clementlefevre/regression-wasm)
+[link to the XGBoost Webassembly code](https://github.com/clementlefevre/regression-wasm) used as reference.
 
 
 ### Clojure 
