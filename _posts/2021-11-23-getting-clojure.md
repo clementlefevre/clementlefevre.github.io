@@ -15,9 +15,12 @@ image:
 I recently had to ship a small interactive tool that for some reasons should not be deployed on a server.
 R Shiny or any pythonical alternative would have been a neat option, but the installation process, especially for non-technical user would have been a burden (think software updates).
 
-How about docker running locally ? well, before Windows provided the WSL2 option, it was to say the least an interesting experience to learn more about your resistance to pain.
+How about docker running locally ? well, before Windows provided the [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) option, it was to say the least an interesting experience to learn more about your resistance to pain.
 
-I then gave a try to golang, and found its tooling excellent : setting up the VSCode plugin was a breeze, and the compilation times is amazing.
+I then gave a try to [golang](https://go.dev/), and found its tooling excellent : setting up the VSCode plugin was a breeze, not time to waste to setup the debugger, the linter etc...
+And cherry on cake, for a compiled language, it's compilation times is excellent (a few seconds for small project).
+One other interesting aspect of golang is that its creator Rob Pike design golang from the beginning with concurrency in mind. The result is a language allowing running so-called goroutines (process running )
+
 <figure>
 	<img src="/images/getting_clojure/aws.PNG" style="width: 95%;">
 	<figcaption>Source : Twitter (a popular microblogging application)</figcaption>
