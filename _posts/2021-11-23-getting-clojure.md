@@ -25,7 +25,7 @@ https://github.com/clementlefevre/regression-wasm
                               :password "my_pwd" }))
 
 ;; query DB
-(def raw_rs (jdbc/execute! ds ["SELECT * FROM SUS_ANALYTICS.D_EQUIPMENT_MASTER WHERE KLASSE LIKE '%38000%'"]))
+(def raw_rs (jdbc/execute! ds ["SELECT * FROM  TABLE_1"]))
 
 ;; convert to dataframe and do your stuff:
 (def df (-> raw_rs (tc/dataset  {:key-fn keyword})))
