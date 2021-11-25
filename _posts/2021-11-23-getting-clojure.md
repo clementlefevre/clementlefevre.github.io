@@ -43,35 +43,5 @@ The future is now !
 [link to the XGBoost Webassembly code](https://github.com/clementlefevre/regression-wasm)
 
 
-
-
-
-
-
-
-
-``` clojure
-(ns clojure-sandbox.databaseservice  (:require 
-[next.jdbc :as jdbc] [tablecloth.api :as tc]))
-;; set the DB Connection
-(def ds (jdbc/get-datasource {:jdbcUrl "my_url"  :user "my_name"
-                              :password "my_pwd" }))
-
-;; query DB
-(def raw_rs (jdbc/execute! ds ["SELECT * FROM  TABLE_1"]))
-
-;; convert to a dataset:
-(def ds (-> raw_rs (tc/dataset  {:key-fn keyword})))
-
-;; and do your stuff:
-(def ds (-> df (tc/unique-by :Year)
-                    (tc/select-columns :Year)
-                    (tc/replace-missing  :Year :value -999)
-                    (tc/convert-types {:Year :int32})
-                    (tc/order-by :Year)))
-
-```
-
-
-### References :
-
+### Clojure 
+Coming soon.
