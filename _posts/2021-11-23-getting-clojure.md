@@ -6,14 +6,14 @@ comments: true
 category: articles
 published: true
 image:
-  feature: getting_clojure/joy-division-closer.jpg
+  feature: getting_clojure/joy-division-closer2.jpg
 ---
 
 *The  Appiani family tomb in Genoa  (cover for Joy Division - Closer 1980).*
 
-## Go go go !
+#### go go go !
 I recently had to ship a small interactive tool that for some reasons should not be deployed on a server.
-R Shiny or pythonical alternative would have been a neat option, but the installation process, especially for non-technical user would have been a burden (think software updates).
+R Shiny or any pythonical alternative would have been a neat option, but the installation process, especially for non-technical user would have been a burden (think software updates).
 
 How about docker running locally ? well, before Windows provided the WSL2 option, it was to say the least an interesting experience to learn more about your resistance to pain.
 
