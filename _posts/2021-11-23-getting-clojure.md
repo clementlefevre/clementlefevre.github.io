@@ -1,7 +1,7 @@
 ---
 layout: post
 title: golang and one step clojure.
-description: The  Appiani family tomb in Genoa  (cover for Joy Division - Closer 1980).
+description: 
 comments: true
 category: articles
 published: true
@@ -9,6 +9,7 @@ image:
   feature: getting_clojure/joy-division-closer.jpg
 ---
 
+*The  Appiani family tomb in Genoa  (cover for Joy Division - Closer 1980).*
 
 ## Go go go !
 I recently had to ship a small interactive tool that for some reasons should not be deployed on a server.
@@ -18,8 +19,8 @@ How about docker running locally ? well, before Windows provided the WSL2 option
 
 I then gave a try to golang, and found its tooling excellent : setting up the VSCode plugin was a breeze, and the compilation times is amazing.
 <figure>
-	<img src="/images/getting-clojure/aws.png" style="width: 95%;">
-	<figcaption>Source : Twitter, (US microblogging application)</figcaption>
+	<img src="/images/getting-clojure/aws.PNG" style="width: 95%;">
+	<figcaption>Source : Twitter (a US-based microblogging application)</figcaption>
 </figure>
 
 
