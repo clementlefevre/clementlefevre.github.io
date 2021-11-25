@@ -19,8 +19,8 @@ How about docker running locally ? well, before Windows provided the WSL2 option
 
 I then gave a try to golang, and found its tooling excellent : setting up the VSCode plugin was a breeze, and the compilation times is amazing.
 <figure>
-	<img src="/images/getting-clojure/aws.PNG" style="width: 95%;">
-	<figcaption>Source : Twitter (a US-based microblogging application)</figcaption>
+	<img src="/images/getting_clojure/aws.PNG" style="width: 95%;">
+	<figcaption>Source : Twitter (a popular microblogging application)</figcaption>
 </figure>
 
 
@@ -37,14 +37,15 @@ https://github.com/clementlefevre/regression-wasm
 ;; query DB
 (def raw_rs (jdbc/execute! ds ["SELECT * FROM  TABLE_1"]))
 
-;; convert to dataframe and do your stuff:
-(def df (-> raw_rs (tc/dataset  {:key-fn keyword})))
+;; convert to a dataset:
+(def ds (-> raw_rs (tc/dataset  {:key-fn keyword})))
 
-(def df_baujahr (-> df (tc/unique-by :BAUJAHR)
-                    (tc/select-columns :BAUJAHR)
-                    (tc/replace-missing  :BAUJAHR :value -999)
-                    (tc/convert-types {:BAUJAHR :int32})
-                    (tc/order-by :BAUJAHR)))
+;; and do your stuff:
+(def ds (-> df (tc/unique-by :Year)
+                    (tc/select-columns :Year)
+                    (tc/replace-missing  :Year :value -999)
+                    (tc/convert-types {:Year :int32})
+                    (tc/order-by :Year)))
 
 ```
 
