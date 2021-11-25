@@ -11,7 +11,7 @@ image:
 
 *The  Appiani family tomb in Genoa  (cover for Joy Division - Closer 1980).*
 
-#### go go go !
+### go go go !
 I recently had to ship a small interactive tool that for some reasons should not be deployed on a server.
 R Shiny or any pythonical alternative would have been a neat option, but the installation process, especially for non-technical user would have been a burden (think software updates).
 
