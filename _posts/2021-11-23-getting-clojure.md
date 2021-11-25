@@ -23,19 +23,21 @@ One other interesting aspect of golang is that its creator Rob Pike designed gol
 
 <figure>
 	<img src="/images/getting_clojure/benchmark.PNG" style="width: 95%;" target="_blank">
-	<figcaption>right-click - "open in a new tab" to zoom in</figcaption>
+	<figcaption>no comment</figcaption>
 </figure>
 And, last but not least, golang provides a Webassembly compiler, that let you convert your golang code into a webassembly file.
-What does this means ? For people old enough to remember the time before Instagramm, there was google Earth, a desktop application that let us observe our neighbours's garden thanks to the satellite imagery.
+What does this means ? For people old enough to remember the time before Instagramm, there was google Earth, an other tool to stalk your neighbour's life. Google Earth at that time was a desktop application, requiring user to first download and install it to be able to use it.
 <figure>
 	<img src="/images/getting_clojure/aws.PNG" style="width: 95%;">
 	<figcaption>Source : Twitter (a popular microblogging application)</figcaption>
 </figure>
 
 Nowadays, if you open your browser and open the new [google earth version](https://earth.google.com/web/), you get the same function,
- but this time the whole rendering calculation is done within your browser, thanks to webassembly. You can even run a [jupyter notebook in your browser](https://jupyterlite.github.io/demo/lab/index.html) with a webassembly version of python !
+ but this time the whole rendering calculation is done within your browser, thanks to webassembly. You can even run a [jupyter notebook in your browser](https://jupyterlite.github.io/demo/lab/index.html) with a webassembly version of python ! 
 
-Coming back to my application, i ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 3MB), serving a VueJs Dashboard with a Webassembly file running a pretrained XGBoost Classifier. And i forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
+Coming back to my application, i then pretrained a XGB classifier in python, and exported the fitted model as a file. Then, i used a [golang package](https://gowalker.org/github.com/dmitryikh/leaves) to read this model and compute prediction given a user input.
+
+I ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 3MB), serving a VueJs Dashboard with a Webassembly file running a pretrained XGBoost Classifier. And i forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
 The future is now !
 
 [link to the XGBoost Webassembly code](https://github.com/clementlefevre/regression-wasm)
