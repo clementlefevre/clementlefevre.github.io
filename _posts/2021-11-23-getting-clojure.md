@@ -19,7 +19,11 @@ How about docker running locally ? well, before Windows provided the [WSL2](http
 
 I then gave a try to [golang](https://go.dev/), and found its tooling excellent : setting up the VSCode plugin was a breeze, not time to waste to setup the debugger, the linter etc...
 And cherry on cake, for a compiled language, it's compilation times is excellent (a few seconds for small project).
-One other interesting aspect of golang is that its creator Rob Pike design golang from the beginning with concurrency in mind. The result is a language allowing running so-called goroutines (process running )
+One other interesting aspect of golang is that its creator Rob Pike design golang from the beginning with concurrency in mind. As a result, writing so-called goroutines (multiples processes running at the same time) in go is quite easy and readable.
+And, last but not least, golang provides a Webassembly compiler, that let you convert your golang code into a webassembly file.
+What does this means ? For people old enough to remember the time before Instagramm, there was google Earth, a desktop application that us observe our neighbours's garden thanks to the satellite imagery.
+If you open your browser and open the new [google earth version](https://earth.google.com/web/)
+
 
 <figure>
 	<img src="/images/getting_clojure/aws.PNG" style="width: 95%;">
