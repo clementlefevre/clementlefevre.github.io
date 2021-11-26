@@ -21,8 +21,8 @@ And cherry on the cake, for a compiled language, it's compilation time is excell
 One other interesting aspect of golang is that its creator Rob Pike designed golang from the start with concurrency in mind. As a result, writing so-called goroutines (multiples processes running at the same time) in go is quite easy and readable.
 
 <figure>
-	<img src="/images/future_is_now/benchmark.PNG" style="width: 95%;" target="_blank">
-	<figcaption>no comment</figcaption>
+	<img src="/images/future_is_now/benchmark.PNG" style="width: 95%;" target="_blank" href="https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf">
+	<figcaption></figcaption>
 </figure>
 And, last but not least, golang provides a Webassembly compiler, that let you convert your golang code into a webassembly file.
 What does this means ? For people old enough to remember the time before Instagramm, there was google Earth, an other tool to stalk your neighbour's life. Google Earth at that time was a desktop application, requiring user to first download and install it to be able to use it.
