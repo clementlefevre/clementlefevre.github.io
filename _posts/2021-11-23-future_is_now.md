@@ -25,7 +25,7 @@ One other interesting aspect of golang is that its creator Rob Pike designed gol
 	<figcaption></figcaption>
 </figure>
 And, last but not least, golang provides a Webassembly compiler, that let you convert your golang code into a webassembly file.
-What does this means ? For people old enough to remember the time before Instagramm, there was google Earth, an other tool to stalk your neighbour's life. Google Earth at that time was a desktop application, requiring user to first download and install it to be able to use it.
+What does this means ? For people old enough to remember the time before Instagram, there was google Earth, a program also used to stalk your neighbour's life. Google Earth at that time was a desktop application, requiring user to first download and install it to be able to use it.
 <figure>
 	<img src="/images/future_is_now/aws.PNG" style="width: 95%;">
 	<figcaption>Source : Twitter (a popular microblogging application)</figcaption>
