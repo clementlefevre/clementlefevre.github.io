@@ -46,7 +46,7 @@ The future is now.
 
 
 
-## Reference
+### Reference^s
 - [link to the XGBoost Webassembly demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
 (huge credits to **[Vanessa Sochat](https://vsoch.github.io/) from Lawrence Livermore National Lab** for the original code)
 
