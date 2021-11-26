@@ -44,8 +44,10 @@ Oh, i forgot to mention that golang can very easily generate binary files (e.g. 
 
 The future is now.
 
-[link to the XGBoost Webassembly demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
-(credits to Vanessa Sochat the original code)
+
 
 ## Reference
-https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf
+- [link to the XGBoost Webassembly demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
+(huge credits to **[Vanessa Sochat](https://vsoch.github.io/) from Lawrence Livermore National Lab** for the original code)
+
+- [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)
