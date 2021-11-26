@@ -6,7 +6,7 @@ comments: true
 category: articles
 published: true
 image:
-  feature: the_future_is_now/Erfurt_latrine_disaster.jfif
+  feature: the_future_is_now/Erfurt_latrine_disaster.jpg
 ---
 
 (VGAN generated picture by Erfurt Latrine Disaster @ErfurtLatrine)
