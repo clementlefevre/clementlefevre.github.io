@@ -42,3 +42,5 @@ The future is now.
 [link to the XGBoost Webassembly demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
 (credits to Vanessa Sochat the original code)
 
+## Reference
+https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf
