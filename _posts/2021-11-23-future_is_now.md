@@ -25,7 +25,7 @@ One other interesting aspect of golang is that its creator Rob Pike designed gol
 	<figcaption></figcaption>
 </figure>
 And, last but not least, golang provides a Webassembly compiler, that let you convert your golang code into a webassembly file.
-What does this means ? For people old enough to remember the time before Instagram, there was google Earth, a program also used to stalk your neighbour's life. Google Earth at that time was a desktop application, requiring user to first download and install it to be able to use it.
+What does this means ? For people old enough to remember the time before Instagram, there was google Earth, a similar program  used to stalk your neighbour's life. Google Earth at that time was a desktop application, requiring user to first download and install it to be able to use it.
 <figure>
 	<img src="/images/future_is_now/aws.PNG" style="width: 95%;">
 	<figcaption>Source : Twitter (a popular microblogging application)</figcaption>
@@ -36,7 +36,12 @@ Nowadays, if you open your browser and open the new [google earth version](https
 
 Coming back to my local application, i then pretrained a XGB classifier in python, and exported the fitted model as a file. Then, i used a [golang package](https://gowalker.org/github.com/dmitryikh/leaves) to read this model and compute prediction given a user input. The corresponding golang code was finally compiled into a Webassembly file.
 
-I ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 7MB), serving a VueJs Dashboard with a Webassembly file running the pretrained XGBoost Classifier. And i forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
+I ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 7MB), serving a VueJs Dashboard with a Webassembly file running the pretrained XGBoost Classifier. 
+
+
+Oh, i forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
+
+
 The future is now.
 
 [link to the XGBoost Webassembly demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
