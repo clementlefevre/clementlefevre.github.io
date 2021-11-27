@@ -36,10 +36,10 @@ Nowadays, if you open your browser and open the new [google earth version](https
 
 Coming back to my local application, i then pretrained a XGB classifier in python, and exported the fitted model as a file. Then, i used a [golang package](https://gowalker.org/github.com/dmitryikh/leaves) to read this model and compute prediction given a user input. The corresponding golang code was finally compiled into a Webassembly file.
 
-I ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 7MB), serving a VueJs Dashboard with a Webassembly file running the pretrained XGBoost Classifier. 
+I ended then using an ultralight [http server written in golang](https://github.com/ethanpil/sheret) (less than 7MB), serving a web page with a Webassembly file running the pretrained XGBoost Classifier. 
 
 
-Oh, i forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
+Oh, forgot to mention that golang can very easily generate binary files (e.g. .exe file for Windows), making the delivery of this local application pretty straightforward.
 
 
 The future is now.
