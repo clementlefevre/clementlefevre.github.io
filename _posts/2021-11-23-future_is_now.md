@@ -47,7 +47,7 @@ The future is now.
 
 
 ### References
-- [link to the XGBoost Webassembly demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
+- [demo code](https://github.com/clementlefevre/webassembly_xgboost_demo)
 (huge credits to **[Vanessa Sochat](https://vsoch.github.io/)** - Lawrence Livermore National Lab for the original code)
 
 - [Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)
