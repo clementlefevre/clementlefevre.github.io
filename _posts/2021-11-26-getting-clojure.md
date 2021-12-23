@@ -14,7 +14,7 @@ image:
 Running a data pipeline during the development phase can be burdensome, especially when requirements are highly volatile.
 I decided to give Clojure a try, and so far i am enjoying it.
 
-For the context, after having worked several years with Java, i developped an acute [Spring Framework Stress Disorder](https://www.youtube.com/watch?v=0p_1QSUsbsM&ab_channel=QueenOfficial). On the other hand, having to share R/python applications with end users when no IT infrastructure available can quickly turns burdensome.
+For the context, after having worked several years with Java, i developped an acute [Spring Framework Stress Disorder](https://www.youtube.com/watch?v=0p_1QSUsbsM&ab_channel=QueenOfficial). On the other hand, having to share R/python applications with end users when no IT infrastructure is available can quickly turns burdensome.
 
 In my previous post, i exposed the benefits of having your code running as binary for quick prototyping (with a minimum knowledge of a javascript framework).
 
