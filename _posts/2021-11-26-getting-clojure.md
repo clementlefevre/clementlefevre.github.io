@@ -14,11 +14,11 @@ image:
 Running a data pipeline during the development phase can be burdensome, especially when requirements are highly volatile.
 I decided to give Clojure a try, and so far i am enjoying it.
 
-For the context, after having worked several years with Java, i developped an acute [Spring Framework Stress Disorder](https://www.youtube.com/watch?v=0p_1QSUsbsM&ab_channel=QueenOfficial). An the other hand,  having to share R/python applications with end users when no IT infrastructure available can quickly turns burdensome.
+For the context, after having worked several years with Java, i developped an acute [Spring Framework Stress Disorder](https://www.youtube.com/watch?v=0p_1QSUsbsM&ab_channel=QueenOfficial). On the other hand, having to share R/python applications with end users when no IT infrastructure available can quickly turns burdensome.
 
 In my previous post, i exposed the benefits of having your code running as binary for quick prototyping (with a minimum knowledge of a javascript framework).
 
-With Clojure, so far, i found the best of both worlds : a language offering a real REPL for development (think R : small snippets of code and validating them on the fly) and the ability to deliver your code as a binary/jar file.
+With Clojure, so far, i found the best of both worlds : a language offering a real REPL for development (think R : small snippets of code and validating them on the fly) and the ability to deliver your code as a binary file.
 
 <figure>
 	<img src="/images/getting_clojure/excel_forever.png" style="width: 95%;">
@@ -36,7 +36,7 @@ A quick benchmark shows that a 1 millions rows csv, the loading time is roughly 
 Cherry on the cake, out of the box interoperability with Java grant you access to all the maven world.
 And honey on the sugar, you can generate binary file for your end user with the help of GraalVM.
 
-Link to a [minimalistic demo] (https://github.com/clementlefevre/clojure_for_data_manipulation).
+Link to a [minimalistic demo](https://github.com/clementlefevre/clojure_for_data_manipulation).
 
 
 
