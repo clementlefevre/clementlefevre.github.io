@@ -34,7 +34,7 @@ Clojure offers a [dataframe library](https://scicloj.github.io/tablecloth/index.
 A quick benchmark shows that a 1 millions rows csv, the loading time is roughly three times slower than the R "Marco Pantani" [data.table package](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)
 
 Cherry on the cake, out of the box interoperability with Java grant you access to all the maven world.
-And honey on the sugar, you can generate binary file for your end user with the help of GraalVM.
+And honey on the sugar, you can generate binary file for your end user with the help of GraalVM / native image.
 
 Link to a [minimalistic demo](https://github.com/clementlefevre/clojure_for_data_manipulation).
 
