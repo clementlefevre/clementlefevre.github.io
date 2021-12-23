@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unknow Clojure.
+title: Unknown Clojure.
 description: immutable data pipeline
 comments: true
 category: articles
