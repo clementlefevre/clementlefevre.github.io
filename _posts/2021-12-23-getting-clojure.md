@@ -31,7 +31,7 @@ Of course we could do it with R in a breeze, but installing and setting up the w
 
 Clojure offers a [dataframe library](https://scicloj.github.io/tablecloth/index.html), sitting on an implementation of the [BLAS](https://github.com/bytedeco/javacpp-presets/tree/master/openblas) (Basic Linear Algebra Subprograms) 
 
-A quick benchmark shows that a 1 millions rows csv, the loading time is roughly three times slower than the R "Marco Pantani" [data.table package](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)
+A quick benchmark shows that a one-million rows csv, the loading time is roughly three times slower than the R "Marco Pantani" [data.table package](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)
 
 Cherry on the cake, out of the box interoperability with Java grant you access to all the maven world.
 And honey on the sugar, you can generate binary file for your end user with the help of GraalVM / native image.
